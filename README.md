@@ -1,4 +1,4 @@
-# Gestor de contraseñas
+# API REST MediApp - Server
 
 ## Instalación
 
@@ -17,8 +17,10 @@ Puedes descargar el instalador para windows: ```https://www.postgresql.org/downl
 
 Los datos que debes ingresar seran:
 
-```Usuario: postgres```
-```Password: ClaveBase2000```
+```
+Usuario: postgres
+Password: ClaveBase2000
+```
 
 Eres libre de cambiar estos datos, pero si lo haces deberas cambiarlos tambien en la configuración del servidor.
 
@@ -31,8 +33,11 @@ En la pestaña general nos solicitara lo siguiente:
 ```nombre de conexion: prueba (puede ser cualquiera)```
 
 Luego en la pestaña Conexion:
-````nombre/Direccion de servidor: localhost```
-```Contraseña: ClaveBase2000```
+```
+nombre/Direccion de servidor: localhost
+Contraseña: ClaveBase2000
+```
+
 
 Guardamos.
 
@@ -53,14 +58,18 @@ y dejarlas seleccionadas.
 Guardamos
 
 2.- Abre una terminal en el directorio e instala las dependencias:
-```npm install```
+```
+npm install
+```
 
 Si no tienes instalado node puedes descargarlo desde: ```https://nodejs.org/en```
 
 Te recomiendo instalar choco (viene en la instalación de node), esto para no tener problemas con el programa cliente
 
 3.- En la raiz inicia el proyecto:
-```node index.js```
+```
+node index.js
+```
 
 ## Funciones
 Es un servidor REST que permite conectarse con la base de datos y servir los datos a un cliente
