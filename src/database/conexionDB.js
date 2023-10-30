@@ -7,7 +7,7 @@ const conexionDB = {
     user: 'postgres',
     host: 'localhost',
     database: 'MediApp',
-    password: 'CharAznable1994',
+    password: 'ClaveBase2000',
     port: 5432
 }
 
