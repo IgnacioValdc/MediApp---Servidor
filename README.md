@@ -64,3 +64,4 @@ Te recomiendo instalar choco (viene en la instalación de node), esto para no te
 
 ## Funciones
 Es un servidor REST que permite conectarse con la base de datos y servir los datos a un cliente
+Tienes el proyecto cliente en el siguiente link: https://github.com/IgnacioValdc/MediApp---Cliente
